@@ -54,14 +54,14 @@ table {
 
 
 /* ---------- This is the beginning of my 201 Contact Web Page Project ------------ */
-
+ 
 html, body {
   height: 100%;
   width: 100%;
   padding: 0;
   margin: 0;
 
-  background-image: url("imagesss/background.png");
+  background-image: url("imagesss/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -76,18 +76,18 @@ html, body {
     margin: 100px auto;
  	background: rgba(193, 132, 176, 0.75); /*this uses opacity of 75% for the background color*/
 	text-align: center;
-	border: 
+	border: 0px
 }
 
    
 #logo {
     margin-bottom: 16px;
-	border: 
-	text-align: 
+	border: 0px;
+	text-align: center
 }
 
 h1 {
-	
+	font-family: belda-normal, sans-serif;
     font-size: 2em;
     margin: 0px auto 10px auto;
 	color: #fff;
@@ -96,7 +96,8 @@ h1 {
 
 h2 {
 	 /* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
-	font-size: 1.5em;
+    font-family: belda-normal, sans-serif;
+    font-size: 1.5em;
     line-height: 1.4;
     color: #fff;
     padding: 0px 0px;
@@ -105,7 +106,8 @@ h2 {
 
 p {
 	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
-	font-size: 1.2em;
+	font-family: belda-normal, sans-serif;
+    font-size: 1.2em;
     line-height: 1.6;
     color: #fff;
 }
@@ -114,11 +116,11 @@ nav{
 		font-size: 1.2em;
 		width: 400px;
 		margin: 0 auto;
-		border:  
+		border:  0px;
 		border-width: 3px 0;
 		text-align: center;
-		margin-top: 2em
-        }    
+		margin-top: 2em;
+    }    
 nav li{
 	display:inline; 
     }
@@ -134,10 +136,10 @@ a{
 	font-weight: thin;
     }
 
-a: hover{
+a:hover{
 	
-		color: black;
-		background: pink;
+		color: rgb(255, 255, 255);
+		background: rgba(255, 192, 203, 0.252);
         }
 		.fade
 		{
