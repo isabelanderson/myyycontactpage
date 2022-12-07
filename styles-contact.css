@@ -74,7 +74,7 @@ html, body {
     width: 400px;
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(193, 132, 176, 0.75); /*this uses opacity of 75% for the background color*/
+ 	background: rgba(228, 158, 208, 0.75); /*this uses opacity of 75% for the background color*/
 	text-align: center;
 	border: 0px
 }
@@ -87,32 +87,33 @@ html, body {
 }
 
 h1 {
-	font-family: belda-normal, sans-serif;
+	font-family: utopia-std-headline, serif;
     font-size: 2em;
     margin: 0px auto 10px auto;
-	color: #fff;
+	color:  rgb(255, 255, 255);
 
 }
 
 h2 {
 	 /* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
-    font-family: belda-normal, sans-serif;
+    font-family: utopia-std-caption, serif;
     font-size: 1.5em;
     line-height: 1.4;
-    color: #fff;
+    color:  rgb(255, 255, 255);
     padding: 0px 0px;
     margin: 0px auto 25px auto;
 }
 
 p {
 	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
-	font-family: belda-normal, sans-serif;
+	font-family: utopia-std-headline, serif;
     font-size: 1.2em;
     line-height: 1.6;
-    color: #fff;
+    color: rgb(255, 255, 255);
+
 }
 nav{
-		font-family:belda-normal, sans-serif;
+		font-family: utopia-std, serif;
 		font-size: 1.2em;
 		width: 400px;
 		margin: 0 auto;
